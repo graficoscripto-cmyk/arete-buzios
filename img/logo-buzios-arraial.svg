@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06283D"/>
+      <stop offset="100%" stop-color="#021019"/>
+    </linearGradient>
+    <linearGradient id="turq" x1="15" y1="20" x2="105" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5EEAD4"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="35" y1="22" x2="85" y2="65" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#bg)" stroke="url(#turq)" stroke-width="3"/>
+  <circle cx="60" cy="48" r="18" fill="url(#sun)" opacity="0.92"/>
+  <path d="M24 68 L74 52 L98 62 L84 74 L30 74 Z" fill="#FFFFFF"/>
+  <path d="M46 54 L68 45 L76 53 L48 59 Z" fill="url(#turq)"/>
+  <path d="M18 82 Q39 74 60 82 T102 82" stroke="url(#turq)" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M26 92 Q45 85 62 92 T94 92" stroke="#38BDF8" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+</svg>
