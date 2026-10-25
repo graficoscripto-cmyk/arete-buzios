@@ -630,8 +630,14 @@
 
     .counters-row {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: 1fr;
       gap: 10px;
+    }
+
+    @media (min-width: 520px) {
+      .counters-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
 
     .counter-card {
